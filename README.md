@@ -3,8 +3,6 @@ Alvin's Personal Website
 
 
 ## Particles Plugin 
-
------------------------------
 Forked and using marcbruederlin's particle.js.
 
 particles.js is a lightweight, dependency-free and responsive javascript plugin for particle backgrounds.
