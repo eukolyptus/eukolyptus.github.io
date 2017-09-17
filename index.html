@@ -11,7 +11,7 @@
 
 <!--BODY SECTION-->
 <body>
-	<header>
+	<header class = "header">
 		<div class = "container">
 			<div class = "header_introduction">
 				<h1>Alvin Ko</h1>
@@ -21,14 +21,14 @@
 			</div>
 		</div>
 
-		<canvas class="background"></canvas>
+		<canvas class="header_background"></canvas>
 	</header>
 
 	<script>
 		window.onload = function()
 		{
 			Particles.init({
-				selector: '.background',
+				selector: '.header_background',
 				color: '#FFFFFF',
 				connectParticles:true
 			});
