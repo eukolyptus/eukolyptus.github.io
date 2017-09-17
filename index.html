@@ -1,7 +1,33 @@
 <!DOCTYPE html>
 <html>
+
+<!--HEAD SECTION-->
+<head>
+	<meta charset = "utf=8">
+	<title>Hello World</title>
+	<link rel = "stylesheet" href = "style.css">
+</head>
+<!--END HEAD SECTION-->
+
+<!--BODY SECTION-->
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<header>
+		<canvas class="background"></canvas>
+	</header>
+
+	<script>
+		window.onload = function()
+		{
+			Particles.init({
+				selector: '.background',
+				color: '#FFFFFF',
+				connectParticles:true
+			});
+		};
+	</script>
+
+	<script type = "text/javascript" src = "dist/particles.min.js"></script>
 </body>
+<!--END BODY SECTION-->
+
 </html>
