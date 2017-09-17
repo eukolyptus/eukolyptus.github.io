@@ -13,3 +13,69 @@ html,body
 	z-index: 0;
 	background: #008080;
 }
+
+
+/*********************************************************
+MAIN
+*********************************************************/
+
+html, body
+{
+	height: 100%;
+}
+
+body 
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	line-height: 1.6;
+	background-color: #000;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container 
+{
+	position: relative;
+	max-width: 379px;
+	margin: 0 auto;
+	padding: 0 15px;
+	text-align: center;
+}
+
+/*********************************************************
+HEADER
+*********************************************************/
+.header 
+{
+	height: 100%;
+	background: url('https://unsplash.com/photos/Dlj-SxxTlQ0') bottom no-repeat transparent;
+	background-size: cover;
+}
+
+.header .header__introduction 
+{
+	padding-top: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
