@@ -5,6 +5,10 @@
 <head>
 	<meta charset = "utf=8">
 	<title>Hello World</title>
+
+	<!--Bootstrap core CSS -->
+	<link rel = "Bootstrap stylesheet" href = "bootstrap/dist/css/bootstrap.css">
+	<!--asdf-->
 	<link rel = "stylesheet" href = "style.css">
 </head>
 <!--END HEAD SECTION-->
@@ -14,14 +18,25 @@
 	<header class = "header">
 		<div class = "container">
 			<div class = "header_introduction">
-				<h1>Alvin Ko</h1>
-				<p>MSSE at SJSU</p>
-				<p>Avid outrigger paddler</p>
-				<p>Coffee aficionado</p>
+				<div class = "header_box"><!--Added this here-->
+					<h1>Alvin Ko</h1>
+					<p>MSSE at SJSU</p>
+					<p>Avid outrigger paddler</p>
+					<p>ko.alvin.1748@gmail.com</p>
+					<hr>
+					<div class="row">
+						<div class="col-md-6">
+							<button type="button" class="btn btn-primary" style="float:right;">Resume</button>
+						</div>
+						<div class="col-md-6">
+							<button type="button" class="btn btn-success" style="float:left;">LinkedIn</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<canvas class="header_background"></canvas>
+		<canvas class="header_background"></canvas><!--If you change the class, make sure to update the style.css file and selector in the script running particles.js-->
 	</header>
 
 	<script>
