@@ -1,6 +1,8 @@
 # eukolyptusTree.github.io
 Alvin's Personal Website 
 
+9/21 - Github Integration to slack enabled 
+
 
 ## Particles Plugin 
 Forked and using marcbruederlin's particle.js.
