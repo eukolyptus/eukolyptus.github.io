@@ -1,4 +1,4 @@
-# eukolyptusTree.github.io
+# eukolyptus.github.io
 Alvin's Personal Website 
 
 9/21 - Github Integration to slack enabled 
